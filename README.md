@@ -1,7 +1,5 @@
 # Yugu `BOT`
 
-## Introduction
-
 An open source bot for Discord made to display Granblue Fantasy stickers, written using Discord.js, a Node.js module.
 
 ## Requirements
