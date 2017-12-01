@@ -1,4 +1,4 @@
-# **Yugu Bot**
+# **YUGU BOT**
 
 ## Introduction
 
