@@ -1,0 +1,739 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yggu Bot</title>
+		<link rel="stylesheet" href="css/bootstrap-flex.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/bootstrap.min.js"></script>
+		
+	</head>
+	<body>
+	<div class="jumbotron jumbotron-fluid">
+	  <div class="container">
+		<center><h1 class="display-3" id="about">Yggu <img src="images/yggu-avatar.png" class="circular"/> <span class="tag tag-default">BOT</span></h1></center>
+	  </div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-14">
+				<center><div class='emoji-grid'>
+					<figure class="figure">
+						<img src="images/nicefight.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!nicefight</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/vyrnnice.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!vyrnnice</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/heregoes.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!heregoes</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/clarity.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!clarity</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/dispel.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!dispel</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/doubletrouble.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!doubletrouble</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/soulsoloist.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!soulsoloist</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/rage.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!rage</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/petrify.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!petrify</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/paralyze.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!paralyze</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/hurray.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!hurray</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/awesome.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!awesome</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/muchobliged.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!muchobliged</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/reportingin.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!reportingin</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/comeforth.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!comeforth</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/potions.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!potions</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/igiveup.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!igiveup</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/thanksforwaiting.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!thanksforwaiting</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/thanks.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!thanks</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/striketime.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!striketime</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/rosetta1.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!rosetta1</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/waitup.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!waitup</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/sorry.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!sorry</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/backup.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!backup</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/totallycrushed.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!totallycrushed</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/imonit.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!imonit</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/gimmeloot.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!gimmeloot</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/fullarsenal.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!fullarsenal</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/phalanx.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!phalanx</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/panacea.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!panacea</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/laserfocus.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!laserfocus</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/crackshot.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!crackshot</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/gravitywave.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!gravitywave</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/pandemonium.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!pandemonium</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/bullseyerun.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!bullseyerun</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/heaveho1.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!heaveho1</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/heaveho2.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!heaveho2</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/yoheaveho.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!yoheaveho</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/legendofrackam.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!legendofrackam</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/rackam1.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!rackam1</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/rackam2.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!rackam2</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/rackam3.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!rackam3</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/rackam4.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!rackam4</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/amazing.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!amazing</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/thereyouhaveit.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!thereyouhaveit</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/imonit2.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!imonit2</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/drool.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!drool</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/hi.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!hi</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/congrats.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!congrats</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/katastrophe.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!katastrophe</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/ok.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!ok</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/hellothere.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!hellothere</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/letmehelp.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!letmehelp</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/siryessir.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!siryessir</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/about.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!about</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/zzz.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!zzz</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/foryou.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!foryou</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/aww.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!aww</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/sturm1.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!sturm1</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/chomp.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!chomp</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/boom.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!boom</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/achoo.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!achoo</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/tada.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!tada</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/whoops.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!whoops</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/macho.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!macho</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/ohno.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!ohno</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/wobble.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!wobble</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/bop.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!bop</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/dripdrop.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!dripdrop</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/nailedit.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!nailedit</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/please.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!please</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/peace.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!peace</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/yum.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!yum</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/bequiet.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!bequiet</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/sierodread.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!sierodread</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/pffft.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!pffft</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/awyeah.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!awyeah</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/wiggle.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!wiggle</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/commandme.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!commandme</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/poke.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!poke</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/whatsup.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!whatsup</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/nope.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!nope</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/heyo.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!heyo</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/nooo.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!nooo</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/bad.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!bad</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/fail.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!fail</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/2cool.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!2cool</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/10.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!10</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/nocando.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!nocando</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/danua.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!danua</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/whawha.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!whawha</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/ivesaid.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!ivesaid</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/mission.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!mission</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/whyme.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!whyme</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/thwump.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!thwump</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/wink.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!wink</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/socool.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!socool</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/feeling.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!feeling</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/bonito.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!bonito</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/sigh.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!sigh</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/stop.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!stop</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/bully.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!bully</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/meow.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!meow</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/easytopredict.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!easytopredict</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/whee.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!whee</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/naru.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!naru</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/bemyvassal.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!bemyvassal</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/vania.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!vania</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/hereigo.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!hereigo</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/rosetta2.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!rosetta2</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/rosetta3.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!rosetta3</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/sturm2.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!sturm2</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/ouch.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!ouch</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/bam.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!bam</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/secret.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!secret</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/whoa.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!whoa</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/mmm.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!mmm</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/roger.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!roger</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/vyrncakes.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!vyrncakes</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/go.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!go</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/gogo.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!gogo</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/goodwork.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!goodwork</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/gowild.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!gowild</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/gottarun.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!gottarun</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/goahead.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!goahead</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/gotyourback.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!gotyourback</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/gong.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!gong</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/calmdown.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!calmdown</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/ashes.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!ashes</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/radish.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!radish</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/yikes.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!yikes</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/hmmisee.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!hmmisee</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/letsgo.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!letsgo</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/feendra.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!feendra</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/checked.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!checked</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/pickaclass.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!pickaclass</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/mytummy.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!mytummy</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/absurd.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!absurd</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/takealook.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!takealook</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/finally.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!finally</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/yourekidding.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!yourekidding</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/itsshowtime.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!itsshowtime</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/iknow.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!iknow</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/itson.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!itson</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/electrify.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!electrify</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/humph.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!humph</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/bkhumph.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!bkhumph</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/luvya.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!luvya</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/inputcommand.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!inputcommand</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/myb.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!myb</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/untz.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!untz</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/shoobity.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!shoobity</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/diantha.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!diantha</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/linaria.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!linaria</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/harie.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!harie</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/canna.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!canna</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/diola.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!diola</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/teehee.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!teehee</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/cutielicious.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!cutielicious</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/heavenly.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!heavenly</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/delightful.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!delightful</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/neversurrender.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!neversurrender</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/tubulariffic.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!tubulariffic</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/notgood.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!notgood</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/ayeaye.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!ayeaye</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/qt.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!qt</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/heehee.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!heehee</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/mcdsmile.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!mcdsmile</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/haveone.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!haveone</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/welcome.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!welcome</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/thankyou.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!thankyou</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/smileforme.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!smileforme</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/thatwasgood.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!thatwasgood</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/yggu.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!yggu</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/follow.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!follow</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/yipyip1.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!yipyip1</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/yipyip2.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!yipyip2</figcaption>
+					</figure>
+					<figure class="figure">
+						<img src="images/aidus.png" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-xs-center">!aidus</figcaption>
+					</figure>
+				</div></center>
+				</div>	
+			</div>
+		</div>
+	</div>
+	</div>
+	</body>
+</html>
