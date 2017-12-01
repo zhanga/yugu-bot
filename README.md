@@ -2,7 +2,7 @@
 
 ## **Introduction
 
-**An open source bot made to display Granblue Fantasy stickers.
+**An open source bot for Discord made to display Granblue Fantasy stickers.
 
 ## **REQUIREMENTS**
 * Requires Node.js
