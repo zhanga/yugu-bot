@@ -1,15 +1,13 @@
-# **YUGU BOT**
+# Yugu `BOT`
 
-## **Introduction**
+## Introduction
 
-An open source bot for Discord made to display Granblue Fantasy stickers.
+An open source bot for Discord made to display Granblue Fantasy stickers, written using Discord.js, a Node.js module.
 
-## **Requirements**
+## Requirements
 * Requires Node.js
-* Requires Discord.js
 
-## **Instructions**
-* You would add this bot to Discord in the same way you would add any Discord bot.
-* Just add images to the images folder, and the bot will display the images with a !(imagename).
-* You have to update the HTML figures manually... sorry!
-* Make sure you set your token up at the very bottom.
+## Instructions
+* Just add images to the images folder, and the bot will display the images with a `!imagename` query.
+* You have to update the HTML figures manually for the help document.
+* Make sure you set your [!token](https://discordapp.com/developers/).
