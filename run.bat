@@ -1,1 +1,0 @@
-cmd /k node yugu-bot.js
